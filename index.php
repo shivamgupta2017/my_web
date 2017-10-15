@@ -129,7 +129,7 @@
 
 	 			<div class="col-lg-4 col-md-6 text-center">
 	                    <div class="service-box">
-	                    	<img class="img-circle" width=350 height=350 src="img/portfolio/thumbnails/1.jpg" alt="">
+	                    	<img class="img-circle" width=300 height=300 src="img/portfolio/thumbnails/1.jpg" alt="">
 	                        <h3>Thats me! :)</h3>
 	                        <!-- <p class="text-muted">Our templates are updated regularly so they don't break.</p> -->
 	                    </div>
@@ -147,11 +147,11 @@
         </div>
     </aside>
 
-    <section class="no-padding" id="portfolio" style="border: 1px solid red;">
+    <section class="no-padding" id="portfolio">
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
-                <div class="col-lg-12 col-sm-8" style="border: 1px solid blue;">
-                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                <div class="col-lg-6 col-sm-4" >
+                        <img class="img-circle" src="img/portfolio/thumbnails/1.jpg" width="350" height="350" alt="">
                         <!-- <div class=" portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                             	<div class="project-category text-faded">
@@ -163,7 +163,8 @@
                             </div>
                         </div> -->
                 </div>
-                <?php //echo 'img/portfolio/fullsize/2.jpg'; ?>
+
+               
                 
                 
                 

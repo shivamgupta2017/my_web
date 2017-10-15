@@ -73,7 +73,12 @@
             <div class="header-content-inner">
                 <h1 id="homeHeading" class="typewrite" data-period="2000" data-type='[ "Hello!, Im Shivam", "I am Creative.", "I Love to Code." ]'></h1>
                 <hr>
-                <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
+		
+              	<!-- <p>
+			<h4>
+			Experienced Software Engineer who can bring a diverse skill set and creative drive to software application development. Proficient at designing and development of various algorithms, writing code in various languages, and feature development and implementation. Specialize in thinking outside the box to find unique solutions to difficult engineering problems.
+			</h4>
+				</p> -->
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
         </div>
@@ -83,57 +88,70 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We've got what you need!</h2>
+                    <h2 class="section-heading">Little bit about me!</h2>
                     <hr class="light">
-                    <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
+                    <p class="text-faded">Experienced Software Engineer who can bring a diverse skill set and creative drive to software application development. Proficient at designing and development of various algorithms, writing code in various languages, and feature development and implementation. Specialize in thinking outside the box to find unique solutions to difficult engineering problems.</p>
                     <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
                 </div>
             </div>
         </div>
     </section>
-
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+            </div>
+        </div>
+    </aside>
     <section id="services">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
+                    <h2 class="section-heading">Work Experience</h2>
                     <hr class="primary">
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3>Sturdy Templates</h3>
-                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
-                    </div>
+                <div class="col-lg-8 col-md-4 text-center">
+                	<div class="section-heading text-left text-primary">
+						<h3>Software Engineer - BitIbe Technologies (June 2017 - Current)</h3>                		
+                	</div>
+                	<div class="content text-left col-lg-8 col-md-4">
+                		<h4>Responsible for various kind of web development. Worked in each kind of environment when we call as a team, individual.</h4>
+
+                	</div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3>Ready to Ship</h3>
-                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Up to Date</h3>
-                        <p class="text-muted">We update dependencies to keep things fresh.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Made with Love</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p>
-                    </div>
-                </div>
+                <div class="col-lg-8 col-md-4">
+                	<div class="section-heading text-left text-primary">
+						<h3>Intern - My India Kart Private Limited (Dec 2016 - May 2017)</h3>                		
+                	</div>
+                	<div class="content text-left col-lg-8 col-md-4">
+                		<h4>Was Responsible for various kind of mobile application development whether it is native or hybrid app.</h4>
+                	</div>
+                </div>	
+
+	 			<div class="col-lg-4 col-md-6 text-center">
+	                    <div class="service-box">
+	                    	<img class="img-circle" width=350 height=350 src="img/portfolio/thumbnails/1.jpg" alt="">
+	                        <h3>Thats me! :)</h3>
+	                        <!-- <p class="text-muted">Our templates are updated regularly so they don't break.</p> -->
+	                    </div>
+	            </div>
+
+                
             </div>
+             
         </div>
     </section>
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <!-- <h2>Free Download at Start Bootstrap!</h2>
+                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a> -->
+            </div>
+        </div>
+    </aside>
 
     <section class="no-padding" id="portfolio">
         <div class="container-fluid">
@@ -247,16 +265,25 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Let's Get In Touch!</h2>
                     <hr class="primary">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                    <p>Give me a call or send an email and I will get back to you as soon as possible!</p>
                 </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
+
+                <div class="col-lg-4 text-center">
                     <i class="fa fa-phone fa-3x sr-contact"></i>
                     <p>9993330227</p>
                 </div>
+
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-phone fa-3x sr-contact"></i>
+                    <p>9993330227</p>
+                </div>
+
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
                     <p><a href="mailto:your-email@your-domain.com">shivamgupta1430@gmail.com</a></p>
                 </div>
+
+
             </div>
         </div>
     </section>

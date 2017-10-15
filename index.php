@@ -108,60 +108,72 @@
             </div>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-4 text-center">
-                	<div class="section-heading text-left text-primary">
-						<h3>Software Engineer - BitIbe Technologies (June 2017 - Current)</h3>                		
-                	</div>
-                	<div class="content text-left col-lg-8 col-md-4">
-                		<h4>Responsible for various kind of web development. Worked in each kind of environment when we call as a team, individual.</h4>
+            
+            	<div class="col-lg-8 col-md-4 text-center">
+            		<div class="col-lg-12 col-md-8 text-center">
+	                	<div class="section-heading text-left text-primary">
+							<h3>Software Engineer - BitIbe Technologies (June 2017 - Current)</h3>                		
+	                	</div>
+	                	<div class="content text-left col-lg-8 col-md-4">
+	                		<h4>Responsible for various kind of web development. Worked in each kind of environment when we call as a team, individual.</h4>
 
+	                	</div>
                 	</div>
-                </div>
-                <div class="col-lg-8 col-md-4">
+                <div class="col-lg-12 col-md-8">
                 	<div class="section-heading text-left text-primary">
 						<h3>Intern - My India Kart Private Limited (Dec 2016 - May 2017)</h3>                		
                 	</div>
                 	<div class="content text-left col-lg-8 col-md-4">
                 		<h4>Was Responsible for various kind of mobile application development whether it is native or hybrid app.</h4>
                 	</div>
-                </div>	
-
+                </div>		
+            	</div>
 	 			<div class="col-lg-4 col-md-6 text-center">
 	                    <div class="service-box">
 	                    	<img class="img-circle" width=300 height=300 src="img/portfolio/thumbnails/1.jpg" alt="">
 	                        <h3>Thats me! :)</h3>
-	                        <!-- <p class="text-muted">Our templates are updated regularly so they don't break.</p> -->
 	                    </div>
 	            </div>
-
-                
-            </div>
-             
         </div>
+        
     </section>
-    <aside class="bg-dark">
+    <aside class="bg-primary">
         <div class="container text-center">
             <div class="call-to-action">
             </div>
         </div>
     </aside>
 
-    <section class="no-padding" id="portfolio">
+       <section class="padding" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Early Education</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+
         <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-lg-6 col-sm-4" >
-                        <img class="img-circle" src="img/portfolio/thumbnails/1.jpg" width="350" height="350" alt="">
-                        <!-- <div class=" portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                            	<div class="project-category text-faded">
-                            		Education
-                            	</div>
-                                <div class="project-name">
-                                    Master of Computer Application
-                                </div>
-                            </div>
-                        </div> -->
+            <div class="row no-gutter popup-gallery col-lg-12 col-md-6" style="border: 2px solid black;">
+                <div class="col-lg-4 col-md-4">
+                        <img class="img-circle" style="position: left!important;" src="img/portfolio/thumbnails/1.jpg" width="350" height="350" alt="">
+                </div>
+                <div class="col-lg-8 col-md-8">
+                	<div class="section-heading text-left text-primary">
+                		<h3><i class="fa fa-graduation-cap fa-3x sr-contact"></i>
+							Masters Of Computer Application - VIT Unitversity, Vellore (TN)</h3> 
+							<br>
+							 <span style="padding-left: 70%">(June 2015 - May 2017)</span>                		
+	               	</div>
+                </div>
+                <div class="col-lg-8 col-md-8">
+                	<div class="section-heading text-left text-primary">
+                		<h3><i class="fa fa-graduation-cap fa-3x sr-contact"></i>
+							Bachelor Of Computer Application - Davv, Indore (MP)</h3> 
+							<br>
+							 <span style="padding-left: 70%">(June 2012 - May 2015)</span>                		
+	               	</div>
                 </div>
 
                
@@ -171,18 +183,14 @@
             </div>
         </div>
     </section>
-
-    <aside class="bg-dark">
+     <aside class="bg-dark">
         <div class="container text-center">
             <div class="call-to-action">
-                <!-- <h2>Free Download at Start Bootstrap!</h2>
-                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a> -->
             </div>
         </div>
     </aside>
-
     <section id="contact">
-        <div class="container">
+         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Let's Get In Touch!</h2>

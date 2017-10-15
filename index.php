@@ -53,10 +53,10 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#services">Experience</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#portfolio">Details</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -74,11 +74,7 @@
                 <h1 id="homeHeading" class="typewrite" data-period="2000" data-type='[ "Hello!, Im Shivam", "I am Creative.", "I Love to Code." ]'></h1>
                 <hr>
 		
-              	<!-- <p>
-			<h4>
-			Experienced Software Engineer who can bring a diverse skill set and creative drive to software application development. Proficient at designing and development of various algorithms, writing code in various languages, and feature development and implementation. Specialize in thinking outside the box to find unique solutions to difficult engineering problems.
-			</h4>
-				</p> -->
+              	
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
         </div>
@@ -147,8 +143,6 @@
     <aside class="bg-dark">
         <div class="container text-center">
             <div class="call-to-action">
-                <!-- <h2>Free Download at Start Bootstrap!</h2>
-                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a> -->
             </div>
         </div>
     </aside>
@@ -157,22 +151,22 @@
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
+                    <div class="portfolio-box">
                         <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive img-rounded" alt="">
-                        <div class="portfolio-box-caption">
+                        <div class="project-category text-faded portfolio-box-caption">
+                        	Education
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
+                                
                                 <div class="project-name">
                                     Project Name
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
+                <?php //echo 'img/portfolio/fullsize/2.jpg'; ?>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
+                    <div class="portfolio-box">
                         <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -184,10 +178,10 @@
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
+                    <div class="portfolio-box">
                         <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -199,10 +193,10 @@
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
+                    <div class="portfolio-box">
                         <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -214,10 +208,10 @@
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
+                    <div class="portfolio-box">
                         <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -229,10 +223,10 @@
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
+                    <div class="portfolio-box">
                         <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -244,7 +238,7 @@
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -273,10 +267,12 @@
                     <p>9993330227</p>
                 </div>
 
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>9993330227</p>
-                </div>
+                <a href="pdf/Resume.pdf">
+	                <div class="col-lg-4 text-center">
+	                    <i class="fa fa-cloud-download fa-3x sr-contact"></i>
+	                    <p>Read a bit more about me!</p>
+	                </div>
+            	</a>
 
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
